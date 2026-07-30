@@ -48,6 +48,18 @@ The chatbot collects travel information step by step and updates a reservation s
 
 ---
 
+## How to Run
+
+This project uses ES Modules, so opening `index.html` directly via `file://` will be blocked by CORS in most browsers. Serve it with a local server instead, for example:
+
+- VS Code: install the **Live Server** extension, right-click `index.html` and choose "Open with Live Server"
+- Or via terminal:
+  ```bash
+  npx serve
+  ```
+
+---
+
 ## Tests
 
 Unit tests cover the answer-validation logic (`logic.js`) using [Vitest](https://vitest.dev).
