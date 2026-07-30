@@ -71,17 +71,13 @@ body {
 
 .brand {
     display: flex;
-    align-self: flex-start;
-    background: #ffffff;
-    padding: 10px 18px;
-    border-radius: 20px;
-    box-shadow: var(--shadow-soft);
 }
 
 .brand-logo {
     display: block;
-    height: 32px;
-    width: auto;
+    width: 100%;
+    height: auto;
+    border-radius: var(--radius-card);
 }
 
 .panels {

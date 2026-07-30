@@ -1,15 +1,14 @@
-# Travel Agency Chatbot
-
 <p align="center">
-  <img src="assets/logo.png" alt="Viajar - Reservas de Viagem" width="220">
+  <img src="assets/brand-logo.png" alt="Viajar - Reservas de Viagem" width="220">
 </p>
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
-[![Tests](https://github.com/lianeheidemann/travel-booking-chatbot/actions/workflows/tests.yml/badge.svg)](https://github.com/lianeheidemann/travel-booking-chatbot/actions/workflows/tests.yml)
-
+<p align='center'>
+  <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&amp;logo=javascript&amp;logoColor=black' alt='JavaScript'>
+  <img src='https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&amp;logo=html5&amp;logoColor=white' alt='HTML5'>
+  <img src='https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&amp;logo=css3&amp;logoColor=white' alt='CSS3'><br>
+  <img src='https://img.shields.io/badge/tests-passing-brightgreen' alt='Tests'>
+</p>
+  
 Simple rule-based chatbot that simulates a travel agency assistant.  
 The user is guided through a step-by-step flow to collect booking information and view a live reservation summary.
 
@@ -62,24 +61,12 @@ A GitHub Actions workflow runs this suite automatically on every push and pull r
 
 ## Screenshots
 
-<p align="center">
-  <img src="assets/screenshot-desktop.png" alt="Tela desktop" width="700"><br>
-  <sub>Desktop</sub>
-</p>
+### Desktop
+<img src="assets/screenshot-desktop.png" alt="Tela desktop" width="700"><br>
 
-<p align="center">
-  <img src="assets/screenshot-mobile.png" alt="Tela mobile" width="260"><br>
-  <sub>Mobile</sub>
-</p>
+### Mobile
+<img src="assets/screenshot-mobile.png" alt="Tela mobile" width="260"><br>
 
 ---
 
-## Demo
-
-![Project demo](https://github.com/user-attachments/assets/8e97933f-639e-46e9-9f31-cc5f6557f734)
-
----
-
-## Contact
-
-Developed by Liane Heidemann
+<p align='center'>Devloped by Liane Heidemann<p>
