@@ -1,0 +1,13 @@
+{
+  "name": "travel-booking-chatbot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Simple rule-based chatbot that simulates a travel agency assistant.",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "vitest": "^2.1.9"
+  }
+}
