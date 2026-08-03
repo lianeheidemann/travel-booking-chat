@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "description": "Simple rule-based chatbot that simulates a travel agency assistant.",
+  "license": "MIT",
   "scripts": {
     "test": "vitest run"
   },
