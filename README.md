@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/brand-logo.png" alt="Viajar - Reservas de Viagem" width="220">
+  <img src="assets\logo\brand-logo.png" alt="Viajar - Reservas de Viagem" width="220">
 </p>
 
 <p align='center'>
@@ -75,11 +75,11 @@ A GitHub Actions workflow runs this suite automatically on every push and pull r
 
 ## Screenshots
 
-### Desktop
-<img src="assets/screenshot-desktop.png" alt="Tela desktop" width="700"><br>
+### Desktop / Mobile
+<img src="assets\interface\interface_v2.png" alt="Interface"><br>
 
-### Mobile
-<img src="assets/screenshot-mobile.png" alt="Tela mobile" width="260"><br>
+### GIF
+<img src="assets\gif e video\demonstracao-v2.gif" alt="Tela mobile"><br>
 
 ---
 
