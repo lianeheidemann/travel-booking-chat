@@ -83,4 +83,4 @@ A GitHub Actions workflow runs this suite automatically on every push and pull r
 
 ---
 
-<p align='center'>Devloped by Liane Heidemann<p>
+<p align='center'>Developed by Liane Heidemann<p>
