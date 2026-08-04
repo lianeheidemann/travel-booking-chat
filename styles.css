@@ -262,18 +262,27 @@ button:disabled {
 
 /* ===== Card "Sua Reserva" ===== */
 
-.card-header-resumo {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: var(--space-2);
-    flex-wrap: wrap;
+.card-resumo {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-areas:
+        "info reiniciar"
+        "empty empty"
+        "list list";
+    column-gap: var(--space-2);
 }
 
 .card-header-info {
+    grid-area: info;
     display: flex;
     align-items: flex-start;
     gap: var(--space-2);
+    margin-bottom: var(--space-3);
+}
+
+.card-resumo .btn-ghost {
+    grid-area: reiniciar;
+    align-self: start;
 }
 
 .icon-reserva {
@@ -284,6 +293,7 @@ button:disabled {
 }
 
 .resumo-empty {
+    grid-area: empty;
     margin: 0 0 var(--space-3);
     padding: var(--space-2) var(--space-3);
     border: 1px dashed var(--border);
@@ -298,6 +308,7 @@ button:disabled {
 }
 
 .resumo-list {
+    grid-area: list;
     display: flex;
     flex-direction: column;
     gap: var(--space-1);
@@ -349,8 +360,37 @@ button:disabled {
         flex-direction: column;
     }
 
+    #input {
+        flex: none;
+        width: 100%;
+        height: 54px;
+    }
+
     #btnEnviar {
         width: 100%;
+    }
+
+    .card-resumo {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "info"
+            "empty"
+            "list"
+            "reiniciar";
+    }
+
+    .card-resumo .btn-ghost {
+        justify-self: end;
+        align-self: auto;
+        margin-top: var(--space-2);
+        height: 36px;
+        padding: 0 var(--space-2);
+        font-size: 13px;
+    }
+
+    .card-resumo .btn-ghost .icon {
+        width: 15px;
+        height: 15px;
     }
 }
 
