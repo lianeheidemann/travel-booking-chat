@@ -76,10 +76,10 @@ A GitHub Actions workflow runs this suite automatically on every push and pull r
 ## Demonstration
 
 ### Desktop
-<img src="assets\gif e video\demonstracao-v2.gif" alt="Tela mobile"><br>
+<img src="assets\gif-e-video\demonstracao-v2.gif" alt="Tela mobile"><br>
 
 ### Mobile
-<p align='center'><img src="assets\gif e video\demonstracao-v2_mobile.gif" alt="CírioApp Demonstration" width="30%"/><p>
+<p align='center'><img src="assets\gif-e-video\demonstracao-v2_mobile.gif" alt="CírioApp Demonstration" width="30%"/><p>
 
 ---
 
