@@ -73,13 +73,13 @@ A GitHub Actions workflow runs this suite automatically on every push and pull r
 
 ---
 
-## Screenshots
+## Demonstration
 
-### Desktop / Mobile
-<img src="assets\interface\interface_v2.png" alt="Interface"><br>
-
-### GIF
+### Desktop
 <img src="assets\gif e video\demonstracao-v2.gif" alt="Tela mobile"><br>
+
+### Mobile
+<img src="assets\gif e video\demonstracao-v2_mobile.gif" alt="Tela mobile"><br>
 
 ---
 
